@@ -1,3 +1,5 @@
+import './ChatBubble.css';
+
 function ChatBubble (props) {
     const sentMessage = {
         background: 'rgba(28, 202, 255, 0.3)',
