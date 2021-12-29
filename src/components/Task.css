@@ -1,0 +1,34 @@
+.task-box--rounded {
+    display: flex;
+    align-items: center;
+    background: #d7d9db;
+    border-radius: 3px;
+    padding: 10px;
+}
+
+.check-box--large{
+    appearance: none;
+    margin: 0;
+    background-color: #FFF;
+    border-radius: 10px;
+    height: 50px;
+    width: 50px;
+}
+
+.check-box--large:checked {
+    background-color: rgb(104, 104, 104);
+    box-shadow: inset 0 0 3px;
+}
+
+.task-content {
+    padding: 0 15px 0 15px;
+    flex-grow: 1;
+}
+
+.task-title {
+    font-size: 1.5rem;
+}
+
+.task-description {
+    font-size: 1rem;
+}
