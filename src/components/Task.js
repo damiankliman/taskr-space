@@ -1,4 +1,8 @@
+import './Task.css';
+
+
 import { faTrashAlt } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 function Task({ task, onToggle, onDelete }) {
     return (
@@ -12,3 +16,5 @@ function Task({ task, onToggle, onDelete }) {
         </div>
     );
 }
+
+export default Task
